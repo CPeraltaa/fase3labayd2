@@ -6,6 +6,7 @@ const controllers = require('../controllers/controllers');
 router.post('/user/registry', controllers.registro);
 
 router.get('/',controllers.index);
-router.get('/login',controllers.log_user);
+router.get('/login',controllers.iniciarsesion);
+router.get("/mainwindow", controllers.mainwindow);
 
 module.exports = router;

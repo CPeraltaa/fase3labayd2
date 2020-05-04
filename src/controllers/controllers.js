@@ -63,7 +63,7 @@ controller.iniciarsesion = function (req, res) {
              res.render("mainwindow.ejs");
           } else {
             message = "Usuario no registrado.";
-            res.render("loginusuarip.ejs", { message: message });
+            res.render("loginusuario.ejs", { message: message });
             //console.log(games);
           }
         }
